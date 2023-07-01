@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.inp{
+    width: 900px;
+    height: 40px;
+    border: solid 4px dodgerblue ;
+    margin: auto;
+    border-radius: 40px;
+    overflow: hidden;
+
+}
+.inp:hover .inp2 {
+    width: 900px;
+}
+.inp2{
+    width: 0;
+    height: 40px;
+    background: dodgerblue;
+    transition: .5s;
+    text-align: center;
+    overflow: hidden;
+
+
+}
+
+
+.inp2:hover{
+    width: 900px;
+
+}
+h2{
+    color: white;
+}
